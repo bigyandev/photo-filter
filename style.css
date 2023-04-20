@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#container {
+    
+    max-width: 1400px;
+    padding: 10px;
+}
+header {
+    margin: 0 auto;
+    height: 70vh;
+    width: 100%;
+    background: #C6FFDD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#display {
+    
+    margin: 0 auto;
+    height: 400px;
+    max-width: 800px;
+    border: 9px solid #696969;
+    border-radius: 10px;
+}
+#overlay {
+    height: 100%;
+    width: 100%;
+    background: rgb(0,0,0,0.7);
+}
+#overlay > h1 {
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    visibility: hidden;
+    
+    
+}
+Input {
+    display: none;
+}
+#design {
+    display: flex;
+    margin: 0 auto;
+    
+    margin-top: 30px;
+    background-color: white;
+    padding: 10px;
+    width: 150px;
+    transition: 0.3s;
+    
+    
+
+}
+#design:hover {
+    background-color: black;
+    color: white;
+}
+#design.h4 {
+    text-align: center;
+    
+}
+#fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.design {
+    margin-bottom: 90px;
+    width: 300px;
+    height: 300px;
+    visibility: visible;
+}
+button {
+    padding: 15px;
+    background-color: lightblue;
+    margin: -30px 0 0 90px;
+    
+    
+    
+}
+button:hover {
+    background-color: rgb(0, 72, 255);
+    color: white;
+    border: white;
+    transition: 0.2s;
+    
+}
+.img-btn {
+    
+    margin: 20px;
+    width: 300px;
+    
+}
